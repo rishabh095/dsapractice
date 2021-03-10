@@ -10,7 +10,7 @@ public class SubArrayWithGivenSum {
         System.out.println(integers);
     }
 
-    // O(n) time complexity
+     // O(n) time complexity
     private static ArrayList<Integer> subArraySum(int[] arr, int sum) {
         ArrayList<Integer> result = new ArrayList<>();
         int currSum = arr[0];
