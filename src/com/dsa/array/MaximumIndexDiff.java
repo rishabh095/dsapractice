@@ -23,6 +23,7 @@ Given an array A[] of N positive integers. The task is to find the maximum of j 
         condition(A[i] <= A[j]) thus giving
         the maximum difference of j - i
         which is 6(7-1).
+        
 */
 
 import java.util.Arrays;
