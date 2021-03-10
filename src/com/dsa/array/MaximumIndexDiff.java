@@ -1,7 +1,7 @@
 package com.dsa.array;
 
-
-/*Given an array A[] of N positive integers. The task is to find the maximum of j - i subjected to the constraint of A[i] <= A[j].
+/*
+Given an array A[] of N positive integers. The task is to find the maximum of j - i subjected to the constraint of A[i] <= A[j].
         Example 1:
         Input:
         N = 2
@@ -22,7 +22,8 @@ package com.dsa.array;
         satisfying the required
         condition(A[i] <= A[j]) thus giving
         the maximum difference of j - i
-        which is 6(7-1).*/
+        which is 6(7-1).
+*/
 
 import java.util.Arrays;
 
@@ -35,23 +36,23 @@ public class MaximumIndexDiff {
 
     //O(n) time complexity and O(n) space complexity
     private static int maxIndexDiffEfficient(int[] arr, int n) {
-        int result=-1;
-        int[] leftMin=new int[n];
-        int[] rightMax=new int[n];
-        leftMin[0]=arr[0];
-        for(int i=1;i<n;i++)
-            leftMin[i]=Math.min(leftMin[i-1],arr[i]);
-        rightMax[n-1]=arr[n-1];
-        for(int i=n-2;i>=0;i--)
-            rightMax[i]=Math.max(rightMax[i+1],arr[i]);
-        int i=0,j=0;
+        int result = -1;
+        int[] leftMin = new int[n];
+        int[] rightMax = new int[n];
+        leftMin[0] = arr[0];
+        for (int i = 1; i < n; i++)
+            leftMin[i] = Math.min(leftMin[i - 1], arr[i]);
+        rightMax[n - 1] = arr[n - 1];
+        for (int i = n - 2; i >= 0; i--)
+            rightMax[i] = Math.max(rightMax[i + 1], arr[i]);
+        int i = 0, j = 0;
         System.out.println(Arrays.toString(leftMin));
         System.out.println(Arrays.toString(rightMax));
-        while (i<n && j<n){
-            if(leftMin[i]<=rightMax[j]){
-                result=Math.max(result,j-i);
+        while (i < n && j < n) {
+            if (leftMin[i] <= rightMax[j]) {
+                result = Math.max(result, j - i);
                 j++;
-            }else
+            } else
                 i++;
         }
         return result;
@@ -61,12 +62,12 @@ public class MaximumIndexDiff {
     private static int maxIndexDiffNaive(int[] arr, int n) {
         int result = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {
-            for (int j = i+1; j < n; j++) {
+            for (int j = i + 1; j < n; j++) {
                 if (arr[i] <= arr[j])
                     result = Math.max(result, j - i);
             }
         }
-        if(result == Integer.MIN_VALUE)
+        if (result == Integer.MIN_VALUE)
             return 0;
         return result;
     }
