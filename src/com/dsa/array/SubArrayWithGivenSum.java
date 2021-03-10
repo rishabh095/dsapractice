@@ -17,7 +17,6 @@ public class SubArrayWithGivenSum {
         int start = 0;
         int last = 0;
         int n = arr.length;
-
         while (currSum != sum) {
             if (currSum > sum)
                 currSum -= arr[start++];
