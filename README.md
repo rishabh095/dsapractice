@@ -1,2 +1,2 @@
 # dsapractice
-DSA Practice
+Daily DSA Practice
