@@ -18,27 +18,27 @@ public class CoinChange {
         for (int i = 1; i <= amount; i++)
             dp[i] = Integer.MAX_VALUE;
         for (int i = 1; i <= amount; i++) {
-            for (int j = 0; j < coins.length; j++) {
-                if (coins[j] <= i) {
-                    int res = dp[i - coins[j]];
+            for (int coin : coins) {
+                if (coin <= i) {
+                    int res = dp[i - coin];
                     if (res != Integer.MAX_VALUE && res + 1 < dp[i])
-                    dp[i] = res + 1;
+                        dp[i] = res + 1;
                 }
             }
         }
-        if(dp[amount]==Integer.MAX_VALUE)
+        if (dp[amount] == Integer.MAX_VALUE)
             return -1;
         return dp[amount];
     }
 
-    //time complexity is exponential (O(n^n))
+    //time complexity is exponential (O(coins^amount))
     private static int coinChange(int[] coins, int amount) {
         if (amount == 0)
             return 0;
         int res = Integer.MAX_VALUE;
-        for (int i = 0; i < coins.length; i++) {
-            if (coins[i] <= amount) {
-                int subRes = coinChange(coins, amount - coins[i]);
+        for (int coin : coins) {
+            if (coin <= amount) {
+                int subRes = coinChange(coins, amount - coin);
                 if (subRes != Integer.MAX_VALUE && subRes + 1 < res)
                     res = subRes + 1;
             }

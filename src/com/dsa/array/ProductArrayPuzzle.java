@@ -38,7 +38,7 @@ public class ProductArrayPuzzle {
     public static void main(String[] args) {
         int[] array = {10, 3, 5, 6, 2};//{1, 0};
         System.out.println(Arrays.toString(productExceptSelfWithExtraSpace(array, array.length)));
-        System.out.println(Arrays.toString(productExceptSelfWithLessExtraSpace(array, array.length)));
+        System.out.println(Arrays.toString(productExceptSelfEfficientSolution(array, array.length)));
         System.out.println(Arrays.toString(productExceptSelf(array, array.length)));
     }
 
@@ -59,10 +59,10 @@ public class ProductArrayPuzzle {
     }
 
     // O(n) time complexity and O(n) space complexity
-    private static int[] productExceptSelfWithLessExtraSpace(int[] array, int n) {
+    private static int[] productExceptSelfEfficientSolution(int[] array, int n) {
         int[] resultArray = new int[n];
         int temp = 1;
-        resultArray[0] = 1;
+        //resultArray[0] = 1;
         for (int i = 0; i < n; i++) {
             resultArray[i] = temp;
             temp *= array[i];
