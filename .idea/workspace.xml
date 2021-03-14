@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.BinaryArraySorting">
+  <component name="RunManager" selected="Application.SwappingNodesInALinkedList">
     <configuration name="BasicCalculatorII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.BasicCalculatorII" />
       <module name="dsapractice" />
@@ -47,19 +47,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dsa.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.CoinChange" />
-      <module name="dsapractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,13 +80,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwappingNodesInALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.SwappingNodesInALinkedList" />
+      <module name="dsapractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwappingNodesInALinkedList" />
         <item itemvalue="Application.BinaryArraySorting" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.ProductArrayPuzzle" />
         <item itemvalue="Application.BasicCalculatorII" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
