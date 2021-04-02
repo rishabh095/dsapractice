@@ -35,9 +35,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.KLargestElement">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.Factorial" />
+  <component name="RunManager" selected="Application.JosephusProblem">
+    <configuration name="AllSubSetOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.AllSubSetOfString" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
@@ -49,34 +49,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.gfg.KLargestElement" />
-      <module name="dsapractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.gfg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.PalindromeLinkedList" />
-      <module name="dsapractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintNumberFromNtoOneUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.PrintNumberFromNtoOneUsingRecursion" />
+    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.JosephusProblem" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +62,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCheckPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.StringCheckPalindrome" />
+    <configuration name="MaximumNumberOfCutRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.MaximumNumberOfCutRope" />
+      <module name="dsapractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubSetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.SubSetSum" />
+      <module name="dsapractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfDigitsOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.SumOfDigitsOfNumber" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KLargestElement" />
-        <item itemvalue="Application.StringCheckPalindrome" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.PrintNumberFromNtoOneUsingRecursion" />
-        <item itemvalue="Application.PalindromeLinkedList" />
+        <item itemvalue="Application.JosephusProblem" />
+        <item itemvalue="Application.SubSetSum" />
+        <item itemvalue="Application.AllSubSetOfString" />
+        <item itemvalue="Application.MaximumNumberOfCutRope" />
+        <item itemvalue="Application.SumOfDigitsOfNumber" />
       </list>
     </recent_temporary>
   </component>
