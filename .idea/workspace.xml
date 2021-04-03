@@ -35,9 +35,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.JosephusProblem">
-    <configuration name="AllSubSetOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.AllSubSetOfString" />
+  <component name="RunManager" selected="Application.LongestValidParentheses">
+    <configuration name="DigitalRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.DigitalRoot" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +62,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumNumberOfCutRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.MaximumNumberOfCutRope" />
+    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.LongestValidParentheses" />
+      <module name="dsapractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LuckyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.LuckyNumbers" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
@@ -75,21 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.SubSetSum" />
-      <module name="dsapractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfDigitsOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.SumOfDigitsOfNumber" />
+    <configuration name="PowerUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.PowerUsingRecursion" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestValidParentheses" />
+        <item itemvalue="Application.PowerUsingRecursion" />
+        <item itemvalue="Application.LuckyNumbers" />
+        <item itemvalue="Application.DigitalRoot" />
         <item itemvalue="Application.JosephusProblem" />
-        <item itemvalue="Application.SubSetSum" />
-        <item itemvalue="Application.AllSubSetOfString" />
-        <item itemvalue="Application.MaximumNumberOfCutRope" />
-        <item itemvalue="Application.SumOfDigitsOfNumber" />
       </list>
     </recent_temporary>
   </component>
