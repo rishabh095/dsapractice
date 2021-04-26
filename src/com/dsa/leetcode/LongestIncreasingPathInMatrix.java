@@ -14,15 +14,15 @@ public class LongestIncreasingPathInMatrix {
 
     //O(m*n) but calculating path for every position even if already done hence time limit exceeded.
     private static int longestIncreasingPathNaive(int[][] matrix) {
-        if(matrix==null || matrix.length==0)
+        if (matrix == null || matrix.length == 0)
             return 0;
         int m = matrix.length;
         int n = matrix[0].length;
         int longestPath = 0;
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                int path=dfsNaive(matrix,m,n,i,j);
-                longestPath=Math.max(longestPath,path);
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                int path = dfsNaive(matrix, m, n, i, j);
+                longestPath = Math.max(longestPath, path);
             }
         }
         return longestPath;
@@ -55,6 +55,7 @@ public class LongestIncreasingPathInMatrix {
         }
         return longestPath;
     }
+
 
     private static int dfs(int[][] matrix, int m, int n, int i, int j, int[][] dp) {
         if (dp[i][j] != 0)

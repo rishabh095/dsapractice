@@ -2,7 +2,7 @@ package com.dsa.recursion;
 
 public class PermutationOfString {
     public static void main(String[] args) {
-        String str = "ABCD";
+        String str = "ABC";
         permute(str, 0, str.length()-1);
     }
 

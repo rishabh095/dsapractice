@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cb808704-cba6-4abf-b613-7a64b08ff605" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,15 +36,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.LowestCommonAncestorOfBinaryTree">
-    <configuration name="LongestIncreasingPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.LongestIncreasingPathInMatrix" />
+  <component name="RunManager" selected="Application.PermutationsInArray">
+    <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.backtracking.NQueenProblem" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.leetcode.*" />
+          <option name="PATTERN" value="com.dsa.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,25 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.LongestValidParentheses" />
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.backtracking.NQueens" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LowestCommonAncestorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.tree.LowestCommonAncestorOfBinaryTree" />
-      <module name="dsapractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.tree.*" />
+          <option name="PATTERN" value="com.dsa.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.PowerUsingRecursion" />
+    <configuration name="PermutationsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.PermutationsInArray" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.recursion.*" />
+          <option name="PATTERN" value="com.dsa.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateImageMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.RotateImageMatrix" />
+      <module name="dsapractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LowestCommonAncestorOfBinaryTree" />
-        <item itemvalue="Application.LongestIncreasingPathInMatrix" />
+        <item itemvalue="Application.PermutationsInArray" />
         <item itemvalue="Application.PermutationOfString" />
-        <item itemvalue="Application.LongestValidParentheses" />
-        <item itemvalue="Application.PowerUsingRecursion" />
+        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.NQueenProblem" />
+        <item itemvalue="Application.RotateImageMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +133,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -141,11 +153,6 @@
           <url>file://$PROJECT_DIR$/src/com/dsa/leetcode/BinaryTreesWithFactors.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dsa/recursion/PermutationOfString.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
