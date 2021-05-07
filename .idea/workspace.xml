@@ -28,6 +28,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d9cae100-df81-4e18-b87a-93509576cb9c" />
+        <option name="url" value="https://github.com/rishabh095/dsapractice.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="1pVhmscHHlHY7TIijypbdOXcVgb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,13 +49,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.PermutationsInArray">
-    <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.backtracking.NQueenProblem" />
+  <component name="RunManager" selected="Application.KthMissingPositiveNumber">
+    <configuration name="CoinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.CoinChange2" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.backtracking.*" />
+          <option name="PATTERN" value="com.dsa.flipkart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.backtracking.NQueens" />
+    <configuration name="KthMissingPositiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.KthMissingPositiveNumber" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.backtracking.*" />
+          <option name="PATTERN" value="com.dsa.flipkart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.recursion.PermutationOfString" />
+    <configuration name="PerfectSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.PerfectSquares" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.recursion.*" />
+          <option name="PATTERN" value="com.dsa.flipkart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.PermutationsInArray" />
+    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.ProductOfArrayExceptSelf" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.leetcode.*" />
+          <option name="PATTERN" value="com.dsa.flipkart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImageMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.leetcode.RotateImageMatrix" />
+    <configuration name="ReverseNodesInkGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.ReverseNodesInkGroup" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.leetcode.*" />
+          <option name="PATTERN" value="com.dsa.flipkart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PermutationsInArray" />
-        <item itemvalue="Application.PermutationOfString" />
-        <item itemvalue="Application.NQueens" />
-        <item itemvalue="Application.NQueenProblem" />
-        <item itemvalue="Application.RotateImageMatrix" />
+        <item itemvalue="Application.KthMissingPositiveNumber" />
+        <item itemvalue="Application.ProductOfArrayExceptSelf" />
+        <item itemvalue="Application.PerfectSquares" />
+        <item itemvalue="Application.ReverseNodesInkGroup" />
+        <item itemvalue="Application.CoinChange2" />
       </list>
     </recent_temporary>
   </component>
