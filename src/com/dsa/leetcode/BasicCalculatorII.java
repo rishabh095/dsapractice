@@ -7,7 +7,7 @@ import java.util.Stack;
 
 public class BasicCalculatorII {
     public static void main(String[] args) {
-        String s = "2*5/2";//"22*6";
+        String s = "19+2*4";//"2*5/2";//"22*6";
         System.out.println(calculate(s));
         System.out.println(calculateEfficientSolution(s));
     }

@@ -11,23 +11,23 @@ public class BestTimeToBuyAndSellStock {
     }
 
     private static int maxProfitEfficientSolution(int[] prices) {
-        int maxProfit=0,minPrice=Integer.MAX_VALUE;
-        for(int i=0;i<prices.length;i++){
-            if(prices[i]<minPrice){
-                minPrice=prices[i];
+        int maxProfit = 0, minPrice = Integer.MAX_VALUE;
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minPrice) {
+                minPrice = prices[i];
             }
-            maxProfit=Math.max(maxProfit,prices[i]-minPrice);
+            maxProfit = Math.max(maxProfit, prices[i] - minPrice);
         }
         return maxProfit;
     }
 
     // O(n*n) time complexity and O(1) space complexity
     private static int maxProfit(int[] prices) {
-        int maxProfit=0;
-        for(int i=0;i<prices.length;i++){
-            for(int j=i+1;j<prices.length;j++){
-                int profit=prices[j]-prices[i];
-                maxProfit=Math.max(maxProfit,profit);
+        int maxProfit = 0;
+        for (int i = 0; i < prices.length; i++) {
+            for (int j = i + 1; j < prices.length; j++) {
+                int profit = prices[j] - prices[i];
+                maxProfit = Math.max(maxProfit, profit);
             }
         }
         return maxProfit;

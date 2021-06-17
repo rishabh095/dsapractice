@@ -15,6 +15,8 @@ public class TrieRepresentation {
         System.out.println("content of Trie :-");
         displayTrie(root, new char[20], 0);
         System.out.println("bad exists in trie :- " + searchIntoTrie("bad"));
+        String s1="";
+        System.out.println(s1.length());
     }
 
     private static void insertIntoTrie(String key) {

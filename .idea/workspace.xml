@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,18 +45,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MachineCoding/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.KthMissingPositiveNumber">
-    <configuration name="CoinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.CoinChange2" />
+  <component name="RunManager" selected="Application.CelebrityProblem">
+    <configuration name="CelebrityProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swiggy.CelebrityProblem" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.flipkart.*" />
+          <option name="PATTERN" value="swiggy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthMissingPositiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.KthMissingPositiveNumber" />
+    <configuration name="InsertDeleteGetRandomInConstantTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swiggy.InsertDeleteGetRandomInConstantTime" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.flipkart.*" />
+          <option name="PATTERN" value="swiggy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerfectSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.PerfectSquares" />
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.backtracking.NQueens" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.flipkart.*" />
+          <option name="PATTERN" value="com.dsa.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.ProductOfArrayExceptSelf" />
+    <configuration name="RowWithMaximumOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure450.matrix.RowWithMaximumOnes" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.flipkart.*" />
+          <option name="PATTERN" value="datastructure450.matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNodesInkGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.flipkart.ReverseNodesInkGroup" />
+    <configuration name="TempleOfferings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure450.array.TempleOfferings" />
       <module name="dsapractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.flipkart.*" />
+          <option name="PATTERN" value="datastructure450.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KthMissingPositiveNumber" />
-        <item itemvalue="Application.ProductOfArrayExceptSelf" />
-        <item itemvalue="Application.PerfectSquares" />
-        <item itemvalue="Application.ReverseNodesInkGroup" />
-        <item itemvalue="Application.CoinChange2" />
+        <item itemvalue="Application.CelebrityProblem" />
+        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.InsertDeleteGetRandomInConstantTime" />
+        <item itemvalue="Application.TempleOfferings" />
+        <item itemvalue="Application.RowWithMaximumOnes" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +163,56 @@
           <url>file://$PROJECT_DIR$/src/com/dsa/leetcode/BinaryTreesWithFactors.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/tree/ValidateBST.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/tree/BalanceBinarySearchTree.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/leetcode/BasicCalculatorII.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure450/dp/StoneGameVII.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/graph/DetectCycleInUnDirectedGraph.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure450/string/CountAndSay.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/swiggy/InsertDeleteGetRandomInConstantTime.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/swiggy/InsertDeleteGetRandomInConstantTime.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/swiggy/InsertDeleteGetRandomInConstantTime.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/swiggy/InsertDeleteGetRandomInConstantTime.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

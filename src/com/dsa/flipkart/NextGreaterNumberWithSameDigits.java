@@ -1,10 +1,8 @@
 package com.dsa.flipkart;
 
-import java.util.Arrays;
-
 public class NextGreaterNumberWithSameDigits {
     public static void main(String[] args) {
-        String str = "218765";
+        String str = "321";//"218765";
         findNextGreaterNumber(str);
     }
 
@@ -24,15 +22,24 @@ public class NextGreaterNumberWithSameDigits {
             if (str.charAt(j) > minNumber && str.charAt(j) < str.charAt(min))
                 min = j;
         }
-        char[] strChar = swap(str, i - 1, min);
-        Arrays.sort(strChar,i,n);
+        char[] strChar = swap(str.toCharArray(), i - 1, min);
+        //Arrays.sort(strChar,i,n); // worst case O(n log n) or O(n*n)
+        reverse(strChar, i, n - 1); // worst case O(n)
         System.out.println("Next greater no is :");
-        for(char ch:strChar)
+        for (char ch : strChar)
             System.out.print(ch);
     }
 
-    private static char[] swap(String str, int i, int min) {
-        char[] chars = str.toCharArray();
+    static void reverse(char[] arr, int start, int last) {
+        while (start < last) {
+            swap(arr, start, last);
+            start++;
+            last--;
+        }
+    }
+
+    private static char[] swap(char[] chars, int i, int min) {
+        //char[] chars = str.toCharArray();
         char temp = chars[i];
         chars[i] = chars[min];
         chars[min] = temp;
