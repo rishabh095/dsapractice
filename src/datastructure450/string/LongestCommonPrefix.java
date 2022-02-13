@@ -4,7 +4,7 @@ package datastructure450.string;
 
 public class LongestCommonPrefix {
     public static void main(String[] args) {
-        String[] strs = {"flower", "flowere", "flower"};//{"flower", "flow", "flight"};
+        String[] strs = {"flower", "flowere", "flowe"};//{"flower", "flow", "flight"};
         System.out.println(horizontalScanning(strs));
         System.out.println(verticalScanning(strs));
         System.out.println(BinarySearch(strs));

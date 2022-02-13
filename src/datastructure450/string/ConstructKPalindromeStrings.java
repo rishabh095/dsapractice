@@ -2,8 +2,6 @@ package datastructure450.string;
 
 // https://leetcode.com/problems/construct-k-palindrome-strings/
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,8 +26,6 @@ public class ConstructKPalindromeStrings {
             if (entry.getValue() % 2 != 0)
                 count++;
         }
-        if (count > k)
-            return false;
-        return true;
+        return count <= k;
     }
 }

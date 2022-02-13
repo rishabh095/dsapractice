@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class RearrangeArrayAlternatingPositiveAndNegativeItems {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, -4, -1, 4};
+        int[] arr = {1, 2, 3, -4, -1, 4,-2};
         System.out.println(Arrays.toString(arr));
         rearrange(arr, arr.length);
         System.out.println(Arrays.toString(arr));
@@ -46,7 +46,7 @@ public class RearrangeArrayAlternatingPositiveAndNegativeItems {
 
     private static void rearrange(int[] arr, int negative, int positive) {
         if (negative % 2 == 1) {
-            for (int i = 1; i < negative; i++) {
+            for (int i = 1; i < negative; i=i+2) {
                 int c = arr[i];
                 int d = arr[i + negative];
                 arr[i] = d;

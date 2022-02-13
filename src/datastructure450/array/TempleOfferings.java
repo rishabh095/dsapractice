@@ -9,20 +9,6 @@ public class TempleOfferings {
         int[] templeHeight = {1, 4, 3, 6, 2, 1};
         System.out.println(offeringNumber(templeHeight, templeHeight.length));
         System.out.println(offeringNumberBetterSolution(templeHeight, templeHeight.length));
-
-        ArrayList<String> ArrList = new ArrayList<String>();
-
-        // add the values in Array List
-        ArrList.add("Item 1");
-        ArrList.add("Item 2");
-        ArrList.add("Item 3");
-        ArrList.add("Item 4");
-        ArrList.add("Item 5");
-        System.out.println(ArrList);
-        String temp=ArrList.get(1);
-        ArrList.set(1,ArrList.get(2));
-        ArrList.set(2,temp);
-        System.out.println(ArrList);
     }
 
     // O(n*n) time complexity and O(1) space complexity

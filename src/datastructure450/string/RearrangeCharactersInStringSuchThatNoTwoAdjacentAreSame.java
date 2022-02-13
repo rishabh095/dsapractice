@@ -28,7 +28,7 @@ public class RearrangeCharactersInStringSuchThatNoTwoAdjacentAreSame {
         PriorityQueue<Pair> pq = new PriorityQueue<>(Comparator.comparingInt(o -> -o.frequency));
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < n; i++)
-            map.put(str.charAt(i), map.getOrDefault((str.charAt(i)), 0) + 1);
+            map.put(str.charAt(i), map.getOrDefault(str.charAt(i), 0) + 1);
         for (Map.Entry<Character, Integer> entry : map.entrySet())
             pq.add(new Pair(entry.getKey(), entry.getValue()));
         Pair prev = new Pair('#', -1);

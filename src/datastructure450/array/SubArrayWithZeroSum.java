@@ -2,8 +2,6 @@ package datastructure450.array;
 
 // https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
 
-import pos.Second;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;

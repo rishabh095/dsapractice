@@ -22,7 +22,7 @@ public class TrappingRainWater {
                 res += leftMax - arr[start];
                 start++;
             } else {
-                if (arr[start] > rightMax)
+                if (arr[end] > rightMax)
                     rightMax = arr[end];
                 res += rightMax - arr[end];
                 end--;
@@ -41,7 +41,7 @@ public class TrappingRainWater {
             left[i] = Math.max(arr[i], left[i - 1]);
         right[n - 1] = arr[n - 1];
         for (int i = n - 2; i >= 0; i--)
-            right[i] = Math.max(right[i], right[i + 1]);
+            right[i] = Math.max(arr[i], right[i + 1]);
         for (int i = 0; i < n; i++)
             res += Math.min(left[i], right[i]) - arr[i];
         return res;

@@ -10,8 +10,9 @@ public class FindTheDuplicateNumber {
     public static void main(String[] args) {
         int[] arr = {1, 3, 4, 2, 2};
         System.out.println(findDuplicateUsingSetSorting(arr));
-        System.out.println(findDuplicateUsingSet(arr));
-        System.out.println(findDuplicateBestSolution(arr));
+        int[] arr1 = {1, 3, 4, 2, 2};
+        System.out.println(findDuplicateUsingSet(arr1));
+        System.out.println(findDuplicateBestSolution(arr1));
     }
 
     // Floyd's Tortoise and Hare (Cycle Detection)

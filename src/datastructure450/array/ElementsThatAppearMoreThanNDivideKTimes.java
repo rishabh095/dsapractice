@@ -39,7 +39,7 @@ public class ElementsThatAppearMoreThanNDivideKTimes {
         return l;
     }
 
-    // (O log n) + O(n) for traversal => (O log n) time complexity
+    // O(n log n) + O(n) for traversal => (O log n) time complexity
     private static void findElement(int[] arr, int n, int k) {
         Arrays.sort(arr);
         for (int i = 0; i < n; i++) {

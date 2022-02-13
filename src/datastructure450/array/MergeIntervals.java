@@ -8,7 +8,7 @@ import java.util.Comparator;
 
 public class MergeIntervals {
     public static void main(String[] args) {
-        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
+        int[][] intervals = {{1, 2}, {3, 5}, {4, 7}, {6, 8}, {9, 10}};//{{1, 3}, {2, 6}, {8, 10}, {15, 18}};
         int[][] ints = mergeIntervals(intervals);
         for (int[] in : ints)
             System.out.println(Arrays.toString(in));
@@ -27,7 +27,7 @@ public class MergeIntervals {
                 intervals[index] = intervals[i];
             }
         }
-        int[][] result = new int[index+1][2];
+        int[][] result = new int[index + 1][2];
         for (int i = 0; i <= index; i++) {
             result[i][0] = intervals[i][0];
             result[i][1] = intervals[i][1];

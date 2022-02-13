@@ -9,6 +9,7 @@ public class LongestRepeatingSubsequence {
         System.out.println(printLongestRepeatingSubsequence(str));
     }
 
+    // O(n*n) time complexity and O(n*n) space complexity
     private static String printLongestRepeatingSubsequence(String str) {
         int n = str.length();
         int[][] dp = new int[n + 1][n + 1];

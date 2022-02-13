@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class NextPermutation {
     public static void main(String[] args) {
-        int[] arr={2,1,8,7,6,5};//{1,1,5};//{3,2,1};//{1,2,3};
+        int[] arr={2,3,8,7,6,1};//{2,1,8,7,6,5};//{1,1,5};//{3,2,1};//{1,2,3};
         System.out.println(Arrays.toString(arr));
         nextPermutation(arr);
         System.out.println(Arrays.toString(arr));

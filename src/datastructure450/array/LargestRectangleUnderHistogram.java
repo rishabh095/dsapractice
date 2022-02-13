@@ -29,7 +29,6 @@ public class LargestRectangleUnderHistogram {
         while (!s.empty()) {
             tp = s.pop();
             area_with_top = hist[tp] * (s.empty() ? i : i - s.peek() - 1);
-
             if (max_area < area_with_top)
                 max_area = area_with_top;
         }

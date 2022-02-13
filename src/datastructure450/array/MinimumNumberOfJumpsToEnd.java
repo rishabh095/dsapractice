@@ -46,7 +46,7 @@ public class MinimumNumberOfJumpsToEnd {
         return dp[n - 1];
     }
 
-    // O(n*n) time complexity
+    // O(n^n) time complexity
     private static int minimumJumpsRecursive(int[] arr, int n) {
         if (n == 1)
             return 0;

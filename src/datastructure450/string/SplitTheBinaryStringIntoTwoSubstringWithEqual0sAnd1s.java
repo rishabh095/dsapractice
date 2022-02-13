@@ -4,7 +4,7 @@ package datastructure450.string;
 
 public class SplitTheBinaryStringIntoTwoSubstringWithEqual0sAnd1s {
     public static void main(String[] args) {
-        String str = "0100110101";
+        String str = "01001101011";
         System.out.println(maxSubStr(str, str.length()));
     }
 

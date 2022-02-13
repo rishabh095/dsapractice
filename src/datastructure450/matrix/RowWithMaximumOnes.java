@@ -7,7 +7,7 @@ public class RowWithMaximumOnes {
         int[][] matrix = {{0, 0, 0, 1}, {0, 1, 1, 1},
                 {1, 1, 1, 1}, {0, 0, 0, 0}};
         System.out.println(rowWithMax1s(matrix, matrix.length, matrix[0].length));
-        System.out.println(rowWithMax1sBetterInAverageCase(matrix, matrix.length, matrix[0].length));
+        //System.out.println(rowWithMax1sBetterInAverageCase(matrix, matrix.length, matrix[0].length));
         System.out.println(rowWithMax1sBetterSolution(matrix, matrix.length, matrix[0].length));
     }
 
